@@ -1,6 +1,6 @@
 {
   "name": "dark-autumn-frost",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "VSCode dark theme with autumn colors and a little bit of frost",
   "scripts": {
     "build": "gulp build",
