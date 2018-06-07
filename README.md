@@ -91,9 +91,7 @@ npm run release
 ```
 
 Then verify that your `CHANGELOG.md` and your package.json look correct. As long as your git commit messages are
-[conventional and accurate][conventionalcommits], you no longer need to specify the semver type - and you get CHANGELOG generation for free!
-
-If you are unsure about which type of release to tag, please refer to [this Semantic Versioning documentation][semver].
+[conventional and accurate][conventionalcommits], you no longer need to specify the [semver][semver] type - and you get CHANGELOG generation for free!
 
 ### Commiting Your Changes
 
@@ -107,3 +105,4 @@ git push --follow-tags origin master
 [npm]: https://www.npmjs.com/
 [standard-version]: https://github.com/conventional-changelog/standard-version
 [conventionalcommits]: https://conventionalcommits.org/
+[semver]: http://semver.org/
