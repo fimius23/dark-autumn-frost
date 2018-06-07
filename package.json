@@ -1,0 +1,52 @@
+{
+  "name": "dark-autumn-frost",
+  "version": "0.0.1",
+  "description": "VSCode dark theme with autumn colors and a little bit of frost",
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "release": "standard-version",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Benjamin J. Kramer",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/fimius23/dark-autumn-frost",
+  "bugs": "https://github.com/fimius23/dark-autumn-frost/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fimius23/dark-autumn-frost.git"
+  },
+  "keywords": [
+    "code",
+    "vscode",
+    "theme"
+  ],
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "mem-fs": "^1.1.3",
+    "mem-fs-editor": "^4.0.2",
+    "prettier": "1.13.4",
+    "standard-version": "^4.4.0"
+  },
+  "displayName": "Dark Autumn Frost Theme",
+  "publisher": "fimius",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Autumn Frost",
+        "path": "./themes/theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  },
+  "engines": {
+    "node": ">=6.12.0",
+    "npm": ">=4.0.0",
+    "vscode": "^1.20.0"
+  }
+}

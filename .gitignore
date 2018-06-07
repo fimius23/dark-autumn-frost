@@ -1,0 +1,9 @@
+node_modules
+*.vsix
+*.sublime-*
+.DS_Store
+.idea
+.awcache
+*.iml
+npm-debug.log
+TODO
