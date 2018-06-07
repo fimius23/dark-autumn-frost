@@ -45,6 +45,10 @@
       }
     ]
   },
+  "galleryBanner": {
+		"color": "#0F0700",
+		"theme": "dark"
+  },
   "engines": {
     "node": ">=6.12.0",
     "npm": ">=4.0.0",
